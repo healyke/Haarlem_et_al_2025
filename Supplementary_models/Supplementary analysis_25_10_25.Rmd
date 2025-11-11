@@ -277,11 +277,11 @@ phylogeny signal in our model.
 # Calculate H2
 H_main <- phylo_animal/c(phylo_animal + sp_rand + resids_rand)
 H_out <- list(mode = hdr(H_main)$mode,
-              CI_95 = hdr(H_main)$hdr[2,1:2])
+              CI_95 = hdr(H_main)$hdr[2,c(1,8)])
 H_out
 ```
 
-In this case the mode H2 value is 0.79 with a 95% CI of 0.63-0.88 indicating an
+In this case the mode H2 value is 0.83 with a 95% CI of 0.66-0.91 indicating an
 overall high level of phylogentic signal in the data.
 
 If we want we can check each individual model separately. Lets look at the model 
