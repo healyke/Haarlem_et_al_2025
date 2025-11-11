@@ -1,0 +1,10 @@
+load("/Users/kevinhealy/Desktop/GitHub/Haarlem_et_al_2025/Main_model/cff_mar_models-tree1_conv.rda")
+cff_mar_models-tree1_conv
+cff_mar_models
+load("/Users/kevinhealy/Desktop/GitHub/Haarlem_et_al_2025/Main_model/cff_mar_models-tree1_conv.rda")
+env
+env()
+cff_mar_models
+cff_mar_models-tree1_conv
+mulTree
+mulTree_models
